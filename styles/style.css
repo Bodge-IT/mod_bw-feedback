@@ -1,0 +1,74 @@
+.feedback {
+    position: absolute;
+    right: 0;
+    top: 260px;
+    height: 100px;
+    width: 34px;
+    background: red;
+    border: 2px solid #fff;
+    outline: 1px solid #a1a1a1;
+    float: right;
+}
+
+.feedback a {
+    display: block;
+    margin-top: 58px;
+    /* padding: 5px; */
+    cursor: pointer;
+
+    /*Font*/
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.feedback a:hover {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.feedback .form {
+    clear: both;
+    height: 310px;
+    width: 440px;
+    border: 1px solid #000;
+    background: #fff;
+    padding: 15px;
+    display: none;
+    float: right;
+    margin-top: 13px;
+    z-index: 10000;
+}
+.feedback .form h2 {
+    width: 410px;
+}
+
+.feedback .form textarea {
+    height: 170px;
+    width: 410px;
+    padding: 5px;
+}
+.feedback .form > div span {
+    display:inline;
+    margin-right: 30px;
+}
+
+.feedback .status {
+    font-size: 16px;
+    min-height: 20px;
+}
